@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECE Student Information Portal</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <a href="#">Contact</a>
+        <a href="#">Department Login</a>
+        <a href="#">Help</a>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Electronics_symbol.png/600px-Electronics_symbol.png" alt="ECE Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-overlay">
+            Electronics & Communication Engineering  
+            <br>
+            Student Information Portal
+        </div>
+    </div>
+
+    <!-- QUICK ACCESS -->
+    <section class="quick-links">
+        <div class="card">Enter Student Details</div>
+        <div class="card">View Stored Data</div>
+        <div class="card">Notes & Study Materials</div>
+        <div class="card">Lab Manuals</div>
+        <div class="card">Department Circulars</div>
+        <div class="card">Project Resources</div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <h2>About the Department</h2>
+        <p>
+            The Electronics & Communication Engineering Department aims to create a centralized 
+            platform where students can securely submit their academic and personal information.
+            The data is stored safely in Google Sheets and accessed by faculty for academic 
+            administration and communication.
+        </p>
+    </section>
+
+    <!-- GOOGLE FORM -->
+    <section class="form-section">
+        <h2>Submit Your Details</h2>
+        <p>Fill the official student information form below.</p>
+
+        <!-- Replace this with your Google Form embed URL -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5KIhOeS1-example-form/viewform?embedded=true"></iframe>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 ECE Department · All Rights Reserved
+    </footer>
+
+</body>
+</html>
